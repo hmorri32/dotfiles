@@ -120,10 +120,9 @@ module.exports = {
   plugins: [
     // 'hyperterm-hipster',
     // 'hyper-unity',
-    // 'hyper-snazzy',
-    // 'hyperterm-mild-dark',
+    'hyper-snazzy',
     // 'hyperterm-material',
-    'hyper-clean',
+    // 'hyper-clean',
     // 'hyper-ayu',
     // 'an-old-hype',
     'hypercwd',
@@ -131,7 +130,8 @@ module.exports = {
     'hyperclean',
     'hyper-pane',
     'hyper-search',
-    'hyperterm-cursor'
+    'hyperterm-cursor',
+    'hyperline#0.6.1'
   ],
 
   // in development, you can create a directory under
@@ -144,4 +144,3 @@ module.exports = {
     // 'window:devtools': 'cmd+alt+o',
   },
 };
-// 
