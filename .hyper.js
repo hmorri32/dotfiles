@@ -118,9 +118,9 @@ module.exports = {
   // a list of plugins to fetch and install from npm
   // format: [@org/]project[#version]
   plugins: [
-    // 'hyperterm-hipster',
+    'hyperterm-hipster',
     // 'hyper-unity',
-    'hyper-snazzy',
+    // 'hyper-snazzy',
     // 'hyperterm-material',
     // 'hyper-clean',
     // 'hyper-ayu',
