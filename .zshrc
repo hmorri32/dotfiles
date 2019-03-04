@@ -98,6 +98,10 @@ alias gnap='git add -N . && git add -p'
 alias t='tree -l 2'
 alias emptytrash="sudo rm -rfv /Volumes/*/.Trashes; sudo rm -rfv ~/.Trash; sudo rm -rfv /private/var/log/asl/*.asl; sqlite3 ~/Library/Preferences/com.apple.LaunchServices.QuarantineEventsV* 'delete from LSQuarantineEvent'"
 
+function td() {
+  osascript -e 'tell application "System Events" to tell appearance preferences to set dark mode to not dark mode'
+}
+
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # tabtab source for serverless package
